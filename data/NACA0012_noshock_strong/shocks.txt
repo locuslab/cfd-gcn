@@ -1,0 +1,254 @@
+0 - train: outputs_re_None_aoa_0.0_mach_0.25.pkl 
+1 - train: outputs_re_None_aoa_0.0_mach_0.2.pkl
+2 - train: outputs_re_None_aoa_0.0_mach_0.35.pkl
+3 - train: outputs_re_None_aoa_0.0_mach_0.3.pkl
+4 - train: outputs_re_None_aoa_0.0_mach_0.4.pkl
+5 - train: outputs_re_None_aoa_0.0_mach_0.55.pkl
+6 - train: outputs_re_None_aoa_0.0_mach_0.5.pkl
+7 - train: outputs_re_None_aoa_0.0_mach_0.65.pkl
+8 - train: outputs_re_None_aoa_0.0_mach_0.6.pkl
+9 - train: outputs_re_None_aoa_0.0_mach_0.7.pkl
+10 - train: outputs_re_None_aoa_-10.0_mach_0.25.pkl
+11 - train: outputs_re_None_aoa_10.0_mach_0.25.pkl
+12 - train: outputs_re_None_aoa_-10.0_mach_0.2.pkl
+13 - train: outputs_re_None_aoa_10.0_mach_0.2.pkl
+14 - train: outputs_re_None_aoa_-10.0_mach_0.35.pkl
+15 - train: outputs_re_None_aoa_10.0_mach_0.35.pkl
+16 - train: outputs_re_None_aoa_-10.0_mach_0.3.pkl
+17 - train: outputs_re_None_aoa_10.0_mach_0.3.pkl
+18 - train: outputs_re_None_aoa_-10.0_mach_0.4.pkl
+19 - train: outputs_re_None_aoa_10.0_mach_0.4.pkl
+20 - train: outputs_re_None_aoa_-10.0_mach_0.55.pkl SHOCK
+21 - train: outputs_re_None_aoa_10.0_mach_0.55.pkl SHOCK
+22 - train: outputs_re_None_aoa_-10.0_mach_0.5.pkl SHOCK PEQUENO
+23 - train: outputs_re_None_aoa_10.0_mach_0.5.pkl SHOCK PEQUENO
+24 - train: outputs_re_None_aoa_-10.0_mach_0.65.pkl SHOCK
+25 - train: outputs_re_None_aoa_10.0_mach_0.65.pkl SHOCK
+26 - train: outputs_re_None_aoa_-10.0_mach_0.6.pkl SHOCK
+27 - train: outputs_re_None_aoa_10.0_mach_0.6.pkl SHOCK
+28 - train: outputs_re_None_aoa_-10.0_mach_0.7.pkl SHOCK
+29 - train: outputs_re_None_aoa_10.0_mach_0.7.pkl SHOCK
+30 - train: outputs_re_None_aoa_-1.0_mach_0.25.pkl
+31 - train: outputs_re_None_aoa_1.0_mach_0.25.pkl
+32 - train: outputs_re_None_aoa_-1.0_mach_0.2.pkl
+33 - train: outputs_re_None_aoa_1.0_mach_0.2.pkl
+34 - train: outputs_re_None_aoa_-1.0_mach_0.35.pkl
+35 - train: outputs_re_None_aoa_1.0_mach_0.35.pkl
+36 - train: outputs_re_None_aoa_-1.0_mach_0.3.pkl
+37 - train: outputs_re_None_aoa_1.0_mach_0.3.pkl
+38 - train: outputs_re_None_aoa_-1.0_mach_0.4.pkl
+39 - train: outputs_re_None_aoa_1.0_mach_0.4.pkl
+40 - train: outputs_re_None_aoa_-1.0_mach_0.55.pkl
+41 - train: outputs_re_None_aoa_1.0_mach_0.55.pkl
+42 - train: outputs_re_None_aoa_-1.0_mach_0.5.pkl
+43 - train: outputs_re_None_aoa_1.0_mach_0.5.pkl
+44 - train: outputs_re_None_aoa_-1.0_mach_0.65.pkl
+45 - train: outputs_re_None_aoa_1.0_mach_0.65.pkl
+46 - train: outputs_re_None_aoa_-1.0_mach_0.6.pkl
+47 - train: outputs_re_None_aoa_1.0_mach_0.6.pkl
+48 - train: outputs_re_None_aoa_-1.0_mach_0.7.pkl
+49 - train: outputs_re_None_aoa_1.0_mach_0.7.pkl
+50 - train: outputs_re_None_aoa_-2.0_mach_0.25.pkl
+51 - train: outputs_re_None_aoa_2.0_mach_0.25.pkl
+52 - train: outputs_re_None_aoa_-2.0_mach_0.2.pkl
+53 - train: outputs_re_None_aoa_2.0_mach_0.2.pkl
+54 - train: outputs_re_None_aoa_-2.0_mach_0.35.pkl
+55 - train: outputs_re_None_aoa_2.0_mach_0.35.pkl
+56 - train: outputs_re_None_aoa_-2.0_mach_0.3.pkl
+57 - train: outputs_re_None_aoa_2.0_mach_0.3.pkl
+58 - train: outputs_re_None_aoa_-2.0_mach_0.4.pkl
+59 - train: outputs_re_None_aoa_2.0_mach_0.4.pkl
+60 - train: outputs_re_None_aoa_-2.0_mach_0.55.pkl
+61 - train: outputs_re_None_aoa_2.0_mach_0.55.pkl
+62 - train: outputs_re_None_aoa_-2.0_mach_0.5.pkl
+63 - train: outputs_re_None_aoa_2.0_mach_0.5.pkl
+64 - train: outputs_re_None_aoa_-2.0_mach_0.65.pkl
+65 - train: outputs_re_None_aoa_2.0_mach_0.65.pkl
+66 - train: outputs_re_None_aoa_-2.0_mach_0.6.pkl
+67 - train: outputs_re_None_aoa_2.0_mach_0.6.pkl
+68 - train: outputs_re_None_aoa_-2.0_mach_0.7.pkl SHOCK
+69 - train: outputs_re_None_aoa_2.0_mach_0.7.pkl SHOCK
+70 - train: outputs_re_None_aoa_-3.0_mach_0.25.pkl
+71 - train: outputs_re_None_aoa_3.0_mach_0.25.pkl
+72 - train: outputs_re_None_aoa_-3.0_mach_0.2.pkl
+73 - train: outputs_re_None_aoa_3.0_mach_0.2.pkl
+74 - train: outputs_re_None_aoa_-3.0_mach_0.35.pkl
+75 - train: outputs_re_None_aoa_3.0_mach_0.35.pkl
+76 - train: outputs_re_None_aoa_-3.0_mach_0.3.pkl
+77 - train: outputs_re_None_aoa_3.0_mach_0.3.pkl
+78 - train: outputs_re_None_aoa_-3.0_mach_0.4.pkl
+79 - train: outputs_re_None_aoa_3.0_mach_0.4.pkl
+80 - train: outputs_re_None_aoa_-3.0_mach_0.55.pkl
+81 - train: outputs_re_None_aoa_3.0_mach_0.55.pkl
+82 - train: outputs_re_None_aoa_-3.0_mach_0.5.pkl
+83 - train: outputs_re_None_aoa_3.0_mach_0.5.pkl
+84 - train: outputs_re_None_aoa_-3.0_mach_0.65.pkl SHOCK???
+85 - train: outputs_re_None_aoa_3.0_mach_0.65.pkl SHOCK???
+86 - train: outputs_re_None_aoa_-3.0_mach_0.6.pkl
+87 - train: outputs_re_None_aoa_3.0_mach_0.6.pkl
+88 - train: outputs_re_None_aoa_-3.0_mach_0.7.pkl SHOCK
+89 - train: outputs_re_None_aoa_3.0_mach_0.7.pkl SHOCK
+90 - train: outputs_re_None_aoa_-4.0_mach_0.25.pkl
+91 - train: outputs_re_None_aoa_4.0_mach_0.25.pkl
+92 - train: outputs_re_None_aoa_-4.0_mach_0.2.pkl
+93 - train: outputs_re_None_aoa_4.0_mach_0.2.pkl
+94 - train: outputs_re_None_aoa_-4.0_mach_0.35.pkl
+95 - train: outputs_re_None_aoa_4.0_mach_0.35.pkl
+96 - train: outputs_re_None_aoa_-4.0_mach_0.3.pkl
+97 - train: outputs_re_None_aoa_4.0_mach_0.3.pkl
+98 - train: outputs_re_None_aoa_-4.0_mach_0.4.pkl
+99 - train: outputs_re_None_aoa_4.0_mach_0.4.pkl
+100 - train: outputs_re_None_aoa_-4.0_mach_0.55.pkl
+101 - train: outputs_re_None_aoa_4.0_mach_0.55.pkl
+102 - train: outputs_re_None_aoa_-4.0_mach_0.5.pkl
+103 - train: outputs_re_None_aoa_4.0_mach_0.5.pkl
+104 - train: outputs_re_None_aoa_-4.0_mach_0.65.pkl SHOCK
+105 - train: outputs_re_None_aoa_4.0_mach_0.65.pkl SHOCK
+106 - train: outputs_re_None_aoa_-4.0_mach_0.6.pkl
+107 - train: outputs_re_None_aoa_4.0_mach_0.6.pkl
+108 - train: outputs_re_None_aoa_-4.0_mach_0.7.pkl SHOCK
+109 - train: outputs_re_None_aoa_4.0_mach_0.7.pkl SHOCK
+110 - train: outputs_re_None_aoa_-5.0_mach_0.25.pkl
+111 - train: outputs_re_None_aoa_5.0_mach_0.25.pkl
+112 - train: outputs_re_None_aoa_-5.0_mach_0.2.pkl
+113 - train: outputs_re_None_aoa_5.0_mach_0.2.pkl
+114 - train: outputs_re_None_aoa_-5.0_mach_0.35.pkl
+115 - train: outputs_re_None_aoa_5.0_mach_0.35.pkl
+116 - train: outputs_re_None_aoa_-5.0_mach_0.3.pkl
+117 - train: outputs_re_None_aoa_5.0_mach_0.3.pkl
+118 - train: outputs_re_None_aoa_-5.0_mach_0.4.pkl
+119 - train: outputs_re_None_aoa_5.0_mach_0.4.pkl
+120 - train: outputs_re_None_aoa_-5.0_mach_0.55.pkl
+121 - train: outputs_re_None_aoa_5.0_mach_0.55.pkl
+122 - train: outputs_re_None_aoa_-5.0_mach_0.5.pkl
+123 - train: outputs_re_None_aoa_5.0_mach_0.5.pkl
+124 - train: outputs_re_None_aoa_-5.0_mach_0.65.pkl SHOCK
+125 - train: outputs_re_None_aoa_5.0_mach_0.65.pkl SHOCK
+126 - train: outputs_re_None_aoa_-5.0_mach_0.6.pkl SHOCK
+127 - train: outputs_re_None_aoa_5.0_mach_0.6.pkl SHOCK
+128 - train: outputs_re_None_aoa_-5.0_mach_0.7.pkl SHOCK
+129 - train: outputs_re_None_aoa_5.0_mach_0.7.pkl SHOCK
+130 - train: outputs_re_None_aoa_-6.0_mach_0.25.pkl
+131 - train: outputs_re_None_aoa_6.0_mach_0.25.pkl
+132 - train: outputs_re_None_aoa_-6.0_mach_0.2.pkl
+133 - train: outputs_re_None_aoa_6.0_mach_0.2.pkl
+134 - train: outputs_re_None_aoa_-6.0_mach_0.35.pkl
+135 - train: outputs_re_None_aoa_6.0_mach_0.35.pkl
+136 - train: outputs_re_None_aoa_-6.0_mach_0.3.pkl
+137 - train: outputs_re_None_aoa_6.0_mach_0.3.pkl
+138 - train: outputs_re_None_aoa_-6.0_mach_0.4.pkl
+139 - train: outputs_re_None_aoa_6.0_mach_0.4.pkl
+140 - train: outputs_re_None_aoa_-6.0_mach_0.55.pkl SHOCK PEQUENO
+141 - train: outputs_re_None_aoa_6.0_mach_0.55.pkl SHOCK PEQUENO
+142 - train: outputs_re_None_aoa_-6.0_mach_0.5.pkl
+143 - train: outputs_re_None_aoa_6.0_mach_0.5.pkl
+144 - train: outputs_re_None_aoa_-6.0_mach_0.65.pkl SHOCK
+145 - train: outputs_re_None_aoa_6.0_mach_0.65.pkl SHOCK
+146 - train: outputs_re_None_aoa_-6.0_mach_0.6.pkl SHOCK
+147 - train: outputs_re_None_aoa_6.0_mach_0.6.pkl SHOCK
+148 - train: outputs_re_None_aoa_-6.0_mach_0.7.pkl SHOCK
+149 - train: outputs_re_None_aoa_6.0_mach_0.7.pkl SHOCK
+150 - train: outputs_re_None_aoa_-7.0_mach_0.25.pkl
+151 - train: outputs_re_None_aoa_7.0_mach_0.25.pkl
+152 - train: outputs_re_None_aoa_-7.0_mach_0.2.pkl
+153 - train: outputs_re_None_aoa_7.0_mach_0.2.pkl
+154 - train: outputs_re_None_aoa_-7.0_mach_0.35.pkl
+155 - train: outputs_re_None_aoa_7.0_mach_0.35.pkl
+156 - train: outputs_re_None_aoa_-7.0_mach_0.3.pkl
+157 - train: outputs_re_None_aoa_7.0_mach_0.3.pkl
+158 - train: outputs_re_None_aoa_-7.0_mach_0.4.pkl
+159 - train: outputs_re_None_aoa_7.0_mach_0.4.pkl
+160 - train: outputs_re_None_aoa_-7.0_mach_0.55.pkl SHOCK
+161 - train: outputs_re_None_aoa_7.0_mach_0.55.pkl SHOCK
+162 - train: outputs_re_None_aoa_-7.0_mach_0.5.pkl SHOCK???
+163 - train: outputs_re_None_aoa_7.0_mach_0.5.pkl SHOCK???
+164 - train: outputs_re_None_aoa_-7.0_mach_0.65.pkl SHOCK
+165 - train: outputs_re_None_aoa_7.0_mach_0.65.pkl SHOCK
+166 - train: outputs_re_None_aoa_-7.0_mach_0.6.pkl SHOCK
+167 - train: outputs_re_None_aoa_7.0_mach_0.6.pkl SHOCK
+168 - train: outputs_re_None_aoa_-7.0_mach_0.7.pkl SHOCK
+169 - train: outputs_re_None_aoa_7.0_mach_0.7.pkl SHOCK
+170 - train: outputs_re_None_aoa_-8.0_mach_0.25.pkl
+171 - train: outputs_re_None_aoa_8.0_mach_0.25.pkl
+172 - train: outputs_re_None_aoa_-8.0_mach_0.2.pkl
+173 - train: outputs_re_None_aoa_8.0_mach_0.2.pkl
+174 - train: outputs_re_None_aoa_-8.0_mach_0.35.pkl
+175 - train: outputs_re_None_aoa_8.0_mach_0.35.pkl
+176 - train: outputs_re_None_aoa_-8.0_mach_0.3.pkl
+177 - train: outputs_re_None_aoa_8.0_mach_0.3.pkl
+178 - train: outputs_re_None_aoa_-8.0_mach_0.4.pkl
+179 - train: outputs_re_None_aoa_8.0_mach_0.4.pkl
+180 - train: outputs_re_None_aoa_-8.0_mach_0.55.pkl SHOCK
+181 - train: outputs_re_None_aoa_8.0_mach_0.55.pkl SHOCK
+182 - train: outputs_re_None_aoa_-8.0_mach_0.5.pkl SHOCK PEQUENO
+183 - train: outputs_re_None_aoa_8.0_mach_0.5.pkl SHOCK PEQUENO
+184 - train: outputs_re_None_aoa_-8.0_mach_0.65.pkl SHOCK
+185 - train: outputs_re_None_aoa_8.0_mach_0.65.pkl SHOCK
+186 - train: outputs_re_None_aoa_-8.0_mach_0.6.pkl SHOCK
+187 - train: outputs_re_None_aoa_8.0_mach_0.6.pkl SHOCK
+188 - train: outputs_re_None_aoa_-8.0_mach_0.7.pkl SHOCK
+189 - train: outputs_re_None_aoa_8.0_mach_0.7.pkl SHOCK
+190 - train: outputs_re_None_aoa_-9.0_mach_0.25.pkl
+191 - train: outputs_re_None_aoa_9.0_mach_0.25.pkl
+192 - train: outputs_re_None_aoa_-9.0_mach_0.2.pkl
+193 - train: outputs_re_None_aoa_9.0_mach_0.2.pkl
+194 - train: outputs_re_None_aoa_-9.0_mach_0.35.pkl
+195 - train: outputs_re_None_aoa_9.0_mach_0.35.pkl
+196 - train: outputs_re_None_aoa_-9.0_mach_0.3.pkl
+197 - train: outputs_re_None_aoa_9.0_mach_0.3.pkl
+198 - train: outputs_re_None_aoa_-9.0_mach_0.4.pkl
+199 - train: outputs_re_None_aoa_9.0_mach_0.4.pkl
+200 - train: outputs_re_None_aoa_-9.0_mach_0.55.pkl SHOCK
+201 - train: outputs_re_None_aoa_9.0_mach_0.55.pkl SHOCK
+202 - train: outputs_re_None_aoa_-9.0_mach_0.5.pkl SHOCK PEQUENO
+203 - train: outputs_re_None_aoa_9.0_mach_0.5.pkl SHOCK PEQUENO
+204 - train: outputs_re_None_aoa_-9.0_mach_0.65.pkl SHOCK
+205 - train: outputs_re_None_aoa_9.0_mach_0.65.pkl SHOCK
+206 - train: outputs_re_None_aoa_-9.0_mach_0.6.pkl SHOCK
+207 - train: outputs_re_None_aoa_9.0_mach_0.6.pkl SHOCK
+208 - train: outputs_re_None_aoa_-9.0_mach_0.7.pkl SHOCK
+209 - train: outputs_re_None_aoa_9.0_mach_0.7.pkl SHOCK
+
+
+0 - test: outputs_re_None_aoa_0.0_mach_0.45.pkl
+1 - test: outputs_re_None_aoa_0.0_mach_0.8.pkl SHOCK
+2 - test: outputs_re_None_aoa_-10.0_mach_0.45.pkl
+3 - test: outputs_re_None_aoa_10.0_mach_0.45.pkl
+4 - test: outputs_re_None_aoa_-10.0_mach_0.8.pkl SHOCK
+5 - test: outputs_re_None_aoa_10.0_mach_0.8.pkl SHOCK
+6 - test: outputs_re_None_aoa_-1.0_mach_0.45.pkl
+7 - test: outputs_re_None_aoa_1.0_mach_0.45.pkl
+8 - test: outputs_re_None_aoa_-1.0_mach_0.8.pkl SHOCK
+9 - test: outputs_re_None_aoa_1.0_mach_0.8.pkl SHOCK
+10 - test: outputs_re_None_aoa_-2.0_mach_0.45.pkl
+11 - test: outputs_re_None_aoa_2.0_mach_0.45.pkl
+12 - test: outputs_re_None_aoa_-2.0_mach_0.8.pkl SHOCK
+13 - test: outputs_re_None_aoa_2.0_mach_0.8.pkl SHOCK
+14 - test: outputs_re_None_aoa_-3.0_mach_0.45.pkl
+15 - test: outputs_re_None_aoa_3.0_mach_0.45.pkl
+16 - test: outputs_re_None_aoa_-3.0_mach_0.8.pkl SHOCK
+17 - test: outputs_re_None_aoa_3.0_mach_0.8.pkl SHOCK
+18 - test: outputs_re_None_aoa_-4.0_mach_0.45.pkl
+19 - test: outputs_re_None_aoa_4.0_mach_0.45.pkl
+20 - test: outputs_re_None_aoa_-4.0_mach_0.8.pkl SHOCK
+21 - test: outputs_re_None_aoa_4.0_mach_0.8.pkl SHOCK
+22 - test: outputs_re_None_aoa_-5.0_mach_0.45.pkl
+23 - test: outputs_re_None_aoa_5.0_mach_0.45.pkl
+24 - test: outputs_re_None_aoa_-5.0_mach_0.8.pkl SHOCK
+25 - test: outputs_re_None_aoa_5.0_mach_0.8.pkl SHOCK
+26 - test: outputs_re_None_aoa_-6.0_mach_0.45.pkl
+27 - test: outputs_re_None_aoa_6.0_mach_0.45.pkl
+28 - test: outputs_re_None_aoa_-6.0_mach_0.8.pkl SHOCK
+29 - test: outputs_re_None_aoa_6.0_mach_0.8.pkl SHOCK
+30 - test: outputs_re_None_aoa_-7.0_mach_0.45.pkl
+31 - test: outputs_re_None_aoa_7.0_mach_0.45.pkl
+32 - test: outputs_re_None_aoa_-7.0_mach_0.8.pkl SHOCK
+33 - test: outputs_re_None_aoa_7.0_mach_0.8.pkl SHOCK
+34 - test: outputs_re_None_aoa_-8.0_mach_0.45.pkl
+35 - test: outputs_re_None_aoa_8.0_mach_0.45.pkl
+36 - test: outputs_re_None_aoa_-8.0_mach_0.8.pkl SHOCK
+37 - test: outputs_re_None_aoa_8.0_mach_0.8.pkl SHOCK
+38 - test: outputs_re_None_aoa_-9.0_mach_0.45.pkl
+39 - test: outputs_re_None_aoa_9.0_mach_0.45.pkl
+40 - test: outputs_re_None_aoa_-9.0_mach_0.8.pkl SHOCK
+41 - test: outputs_re_None_aoa_9.0_mach_0.8.pkl SHOCK

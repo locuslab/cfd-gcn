@@ -1,0 +1,86 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.optrpt
+
+# Autoconf/Automake
+*.Po
+*.dirstamp
+*.log
+*.status
+autom4te.cache
+*.in
+compile
+config.guess
+config.sub
+configure
+depcomp
+missing
+install-sh
+aclocal.m4
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Python files
+*.pyc
+
+# SWIG compilation
+SU2_PY/pySU2/*.cxx
+SU2_PY/pySU2/*.h
+SU2_PY/pySU2/*.py
+
+# Mac files
+*.DS_Store
+*.xcuserdatad
+
+# Compiled Makefiles
+Makefile
+Makefile.in
+
+# Emacs temporary files
+*~
+
+# installed autotools
+externals/autotools/bin
+externals/autotools/include
+externals/autotools/share
+externals/autotools/lib
+externals/tecio/boost
+
+#logs and errors
+*.log
+*.err
+
+# configuration sets
+SU2_AD/
+SU2_BASE/
+SU2_DIRECTDIFF/
+
+# ignore the bin/ directory
+bin/
+
+# ignore project settings from eclipse
+.project
+
+# ignore swap files
+*.swp
+
+TestData
+*.stl
+
+Mercurial
+.hg*
+
+
+*.idea
+CMakeLists.txt
+cmake-build-debug
+pytorch_config_make.sh
