@@ -11,13 +11,13 @@ RUN apt-get update -y \
 RUN git lfs install
 
 # Install python and pip
-RUN apt-get install -y python3.7-dev python3-pip
+RUN apt-get update -y && apt-get install -y python3.7-dev python3-pip
 RUN ln -s /usr/bin/python3.7 /usr/bin/python
 ENV PIP37="python3.7 -m pip"
 RUN $PIP37 install --upgrade pip
 
 # Install OpenMPI
-RUN apt-get install -y openmpi-bin libopenmpi-dev swig m4
+RUN apt-get update -y && apt-get install -y openmpi-bin libopenmpi-dev swig m4
 RUN env MPICC=/usr/bin/mpicc $PIP37 install mpi4py
 
 #Install pytorch and related python packages
@@ -46,5 +46,6 @@ ENV PATH=$SU2_RUN:$PATH
 ENV PYTHONPATH=$SU2_RUN:$PYTHONPATH
 
 # Clone repository
-RUN git clone https://github.com/locuslab/cfd-gcn.git
+    RUN git clone https://github.com/locuslab/cfd-gcn.git \
+            && chmod -R a+rwX cfd-gcn
 WORKDIR cfd-gcn
