@@ -58,6 +58,7 @@ externals/tecio/boost
 #logs and errors
 *.log
 *.err
+logs/
 
 # configuration sets
 SU2_AD/
