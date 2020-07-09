@@ -13,7 +13,7 @@ from pytorch_lightning.logging import TestTubeLogger
 
 import torch
 from torch import nn, optim
-from torchvision.utils import make_grid, save_image
+from torchvision.utils import make_grid
 from torchvision.transforms import ToTensor
 
 from torch_geometric.data import DataLoader
@@ -154,11 +154,6 @@ class LightningWrapper(pl.LightningModule):
         self.trainer.log_metrics(train_metrics, {}, step=self.trainer.global_step - 1)
         if hasattr(train_metrics, 'epoch'):
             del train_metrics['epoch']  # added from the method above
-
-        if self.hparams.verbose and hasattr(self.trainer, 'tqdm_metrics'):
-            self.trainer.tqdm_metrics.update(train_metrics)
-            metrics = self.format_metrics_dict(self.trainer.tqdm_metrics)
-            logging.info(f'Epoch {self.current_epoch:05d}: {metrics}')
 
     def optimizer_step(self, epoch, batch_idx, optimizer, optimizer_idx, second_order_closure=None):
         if isinstance(self.model, CFDGCN) and not self.hparams.freeze_mesh:
@@ -318,7 +313,7 @@ class LightningWrapper(pl.LightningModule):
                          f'{len(test_loader)} batches.')
         return test_loader
 
-    def log_images(self, nodes, pred, true, batch, elems_list, mode, log_idx=0, contour=False):
+    def log_images(self, nodes, pred, true, batch, elems_list, mode, log_idx=0):
         if self.hparams.no_log or self.logger.debug:
             return
 
@@ -328,16 +323,14 @@ class LightningWrapper(pl.LightningModule):
         true = true[inds]
 
         exp = self.logger.experiment
-        media_path = exp.get_media_path(exp.name, exp.version)
-        epoch = self.current_epoch
         step = self.trainer.global_step if self.step is None else self.step
         for field in range(pred.shape[1]):
             true_img = plot_field(nodes, elems_list, true[:, field],
-                                  title='true', contour=contour)
+                                  title='true')
             true_img = ToTensor()(true_img)
             min_max = (true[:, field].min().item(), true[:, field].max().item())
             pred_img = plot_field(nodes, elems_list, pred[:, field],
-                                  title='pred', clim=min_max, contour=contour)
+                                  title='pred', clim=min_max)
             pred_img = ToTensor()(pred_img)
             imgs = [pred_img, true_img]
             if hasattr(self.model, 'sim_info'):
@@ -353,17 +346,13 @@ class LightningWrapper(pl.LightningModule):
                 sim_elems_list = self.model.contiguous_elems_list(sim_elems, mesh_inds)
 
                 sim_img = plot_field(sim_nodes, sim_elems_list, sim_info[:, field],
-                                     title='sim', clim=min_max, contour=contour)
+                                     title='sim', clim=min_max)
                 sim_img = ToTensor()(sim_img)
                 imgs = [sim_img] + imgs
 
             grid = make_grid(torch.stack(imgs), padding=0)
             img_name = f'{mode}_pred_f{field}'
-            if contour:
-                img_name += '_contour'
             exp.add_image(img_name, grid, global_step=step)
-            img_path = f'{media_path}/{img_name}_e{epoch}_s{step}_b{log_idx}.png'
-            save_image(grid, img_path, padding=0)
 
     def transfer_batch_to_device(self, batch, device):
         for k, v in batch:
