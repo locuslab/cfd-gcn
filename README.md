@@ -24,3 +24,6 @@ To run the experiments, you can either simply run the script
 sh run.sh
 ```
 or copy the commands inside that script to run a particular experiment.
+
+*Note:* Warning messages of the type `Read -1, expected XXXX, errno = 1` may show up, but are not harmful to execution. 
+These can be disabled or piped to `/dev/null` if desired. 
