@@ -39,7 +39,7 @@ def parse_args():
 
     parser.add_argument('--model', '-m', default='gcn',
                         help='Which model to use.')
-    parser.add_argument('--max-epochs', '-me', type=int, default=350,
+    parser.add_argument('--max-epochs', '-me', type=int, default=500,
                         help='Max number of epochs to train for.')
     parser.add_argument('--optim', default='adam', help='Optimizer.')
     parser.add_argument('--batch-size', '-bs', type=int, default=16)
