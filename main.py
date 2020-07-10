@@ -39,11 +39,11 @@ def parse_args():
 
     parser.add_argument('--model', '-m', default='gcn',
                         help='Which model to use.')
-    parser.add_argument('--max-epochs', '-me', type=int, default=5000,
+    parser.add_argument('--max-epochs', '-me', type=int, default=350,
                         help='Max number of epochs to train for.')
     parser.add_argument('--optim', default='adam', help='Optimizer.')
     parser.add_argument('--batch-size', '-bs', type=int, default=16)
-    parser.add_argument('--learning-rate', '-lr', dest='lr', type=float, default=5e-5)
+    parser.add_argument('--learning-rate', '-lr', dest='lr', type=float, default=5e-5) 
     parser.add_argument('--num-layers', '-nl', type=int, default=6)
     parser.add_argument('--num-end-convs', type=int, default=3)
     parser.add_argument('--hidden-size', '-hs', type=int, default=512)
