@@ -1,9 +1,7 @@
 # Combining Differentiable PDE Solvers and Graph Neural Networks for Fluid Flow Prediction
 
 
-This is the repository for the ICML 2020 paper [Combining Differentiable PDE Solvers and Graph Neural Networks for Fluid Flow Prediction](https://arxiv.org/abs/2007.04439) by Filipe de Avila Belbute-Peres, Thomas D. Economon and J. Zico Kolter.
-
-If you like our work and want to cite it, you can use
+This is the repository for the ICML 2020 paper [Combining Differentiable PDE Solvers and Graph Neural Networks for Fluid Flow Prediction](https://arxiv.org/abs/2007.04439) by Filipe de Avila Belbute-Peres, Thomas D. Economon and J. Zico Kolter. If you like our work and want to cite it, you can use
 ```
 @inproceedings{belbute_peres_cfdgcn_2020,
   author = {Belbute-Peres, Filipe de Avila and Economon, Thomas D. and Kolter, J. Zico},
