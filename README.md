@@ -11,7 +11,7 @@ This is the repository for the ICML 2020 paper [Combining Differentiable PDE Sol
 }
 ```
 
-The easiest way to run the experiments is to use the Dockerfile contained in this repository.  Instructions for running straight from source will be added soon.
+The easiest way to run the experiments is to use the Dockerfile contained in this repository. To run straight from source, you can follow the procedures performed in the Dockerfile, though compatibility between dependencies might be harder to achieve.
 
 ## Dockerfile
 
