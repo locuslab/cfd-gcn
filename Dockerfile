@@ -29,11 +29,11 @@ RUN $PIP37 install tqdm matplotlib test-tube
 ENV PATH=/usr/local/cuda/bin:$PATH
 ENV CPATH=/usr/local/cuda/include:$CPATH
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-RUN $PIP37 install torch-scatter==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-RUN $PIP37 install torch-sparse==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-RUN $PIP37 install torch-cluster==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-RUN $PIP37 install torch-spline-conv==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-RUN $PIP37 install torch-geometric
+RUN $PIP37 install torch-scatter==2.0.5 -f https://pytorch-geometric.com/whl/torch-1.5.0+cu101.html
+RUN $PIP37 install torch-sparse==0.6.6 -f https://pytorch-geometric.com/whl/torch-1.5.0+cu101.html
+RUN $PIP37 install torch-cluster==1.5.5 -f https://pytorch-geometric.com/whl/torch-1.5.0+cu101.html
+RUN $PIP37 install torch-spline-conv==1.2.0 -f https://pytorch-geometric.com/whl/torch-1.5.0+cu101.html
+RUN $PIP37 install torch-geometric==1.6.0 -f https://pytorch-geometric.com/whl/torch-1.5.0+cu101.html
 
 # Install SU2
 RUN git clone --branch feature_pytorch_communicator  https://github.com/su2code/SU2 \
