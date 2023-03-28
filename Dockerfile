@@ -39,7 +39,7 @@ RUN $PIP37 install torch-geometric==1.6.0 -f https://pytorch-geometric.com/whl/t
 RUN git clone --branch feature_pytorch_communicator  https://github.com/su2code/SU2 \
         && cd SU2 \
         && ./preconfigure.py --enable-mpi --with-cc=/usr/bin/mpicc --with-cxx=/usr/bin/mpicxx --prefix=/SU2 --enable-autodiff --enable-PY_WRAPPER --disable-tecio --update \
-        && make -j 8 install
+        && sudo make -j 8 install
 ENV SU2_RUN="/SU2/bin"
 ENV SU2_HOME="/SU2"
 ENV PATH=$SU2_RUN:$PATH
